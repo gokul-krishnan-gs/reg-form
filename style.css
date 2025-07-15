@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f4f8;
+    display:flex;
+    justify-content: center;
+    height:100vh;
+    align-items: center;
+}
+
+.reg-container{
+    background-color: white;
+    padding:30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    width:100%;
+    max-width:400px;
+}
+
+form label{
+    display: block;
+    margin: 15px 0 5px;
+    font-size: 14px;
+}
+
+#name{
+    width:100%;
+    padding:10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#email{
+    width:100%;
+    padding:10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+#password{
+    width:100%;
+    padding:10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#confirm{
+    width:100%;
+    padding:10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form fieldset{
+    border: none;
+    margin: 15px 0;
+}
+
+form fieldset legend{
+    font-size: 14px;
+    margin-bottom: 5px;;
+}
+
+#male{
+    margin-right: 5px;
+}
+
+#female{
+    margin-right: 5px;
+}
+
+#other{
+    margin-right: 5px;
+}
+
+#checkbox{
+    margin-right: 8px;
+}
+
+#reg-btn{
+    width:100%;
+    padding:12px;
+    background-color: #3498db;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in;
+}
+
+#reg-btn:hover{
+    background-color: #2980b9;
+}
